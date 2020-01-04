@@ -1,6 +1,12 @@
 # assignment
 Flobiz assignment
 
+
+** While providing auth token in http header the format should be like :
+            Authorization :  Bearer <token> 
+
+
+
  signup { 
   url : https://us-central1-oldmonk-cc6c9.cloudfunctions.net/api/signup
   form data (body) :{ 
