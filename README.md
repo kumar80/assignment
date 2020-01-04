@@ -1,7 +1,7 @@
 # assignment
 Flobiz assignment
 
-signup (create User) { 
+### signup { 
   url : https://us-central1-oldmonk-cc6c9.cloudfunctions.net/api/signup
   form data (body) :{ 
       "password": "abcdef",
@@ -15,7 +15,7 @@ signup (create User) {
    return value : auth token (required for authentication)
  }
  
- login {
+### login {
     url :   https://us-central1-oldmonk-cc6c9.cloudfunctions.net/api/signup
     form data(body) : {
        "password": "abcdef",
@@ -24,9 +24,9 @@ signup (create User) {
     return value : auth token (required for authentication)
 }
 
-//update user details, use auth token for respective user
-  updateUser{
-  url :  https://us-central1-oldmonk-cc6c9.cloudfunctions.net/api/updateuser/:email
+// update user details, use auth token for respective user
+###  updateUser{
+   url :  https://us-central1-oldmonk-cc6c9.cloudfunctions.net/api/updateuser/:email
     form data (body) :{ 
       "password": "abcdef",
       "email" : "req@email.com",
@@ -59,13 +59,13 @@ getAllPost {
     url : https://us-central1-oldmonk-cc6c9.cloudfunctions.net/api/feed
  }
  
-//get specific post by postId
-getPost {
+###//get specific post by postId
+###getPost {
     url : https://us-central1-oldmonk-cc6c9.cloudfunctions.net/api/ :post_id
   }
   
-// delete post  use auth token for respective user
-delete {
+###// delete post  use auth token for respective user
+### delete {
       url : https://us-central1-oldmonk-cc6c9.cloudfunctions.net/api/delete/ :post_id 
 }
 
