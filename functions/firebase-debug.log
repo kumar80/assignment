@@ -1,0 +1,215 @@
+[debug] [2019-12-16T18:05:12.798Z] ----------------------------------------------------------------------
+[debug] [2019-12-16T18:05:12.806Z] Command:       /usr/bin/node /usr/bin/firebase serve --only functions --port=9000
+[debug] [2019-12-16T18:05:12.806Z] CLI Version:   7.6.0
+[debug] [2019-12-16T18:05:12.806Z] Platform:      linux
+[debug] [2019-12-16T18:05:12.806Z] Node Version:  v12.13.0
+[debug] [2019-12-16T18:05:12.807Z] Time:          Mon Dec 16 2019 23:35:12 GMT+0530 (India Standard Time)
+[debug] [2019-12-16T18:05:12.807Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-12-16T18:05:12.812Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-16T18:05:12.812Z] > authorizing via signed-in user
+[debug] [2019-12-16T18:05:12.812Z] [iam] checking project socialexp-154bc for permissions ["firebase.projects.get"]
+[debug] [2019-12-16T18:05:12.813Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/socialexp-154bc:testIamPermissions  
+
+[debug] [2019-12-16T18:05:30.411Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-16T18:05:30.419Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/socialexp-154bc  
+ 
+[debug] [2019-12-16T18:05:37.613Z] <<< HTTP RESPONSE 200
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "12"
+[info] ✔  functions: Emulator started at http://localhost:9000
+[info] i  functions: Watching "/home/maverick/Documents/socialExp-functions/functions" for Cloud Functions...
+[debug] [2019-12-16T18:05:38.495Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/maverick/Documents/socialExp-functions/functions","node_version":"12.13.0"}
+[debug] [2019-12-16T18:05:38.495Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-12-16T18:05:38.498Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.0","resolution":"/home/maverick/Documents/socialExp-functions/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-12-16T18:05:38.498Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/home/maverick/Documents/socialExp-functions/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-12-16T18:05:38.499Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/home/maverick/Documents/socialExp-functions/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  Error: Cannot find module '../utility/admin.js'
+Require stack:
+- /home/maverick/Documents/socialExp-functions/functions/index.js
+- /usr/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:794:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:849:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/home/maverick/Documents/socialExp-functions/functions/index.js:3:21)
+    at Module._compile (internal/modules/cjs/loader.js:956:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)
+    at Module.load (internal/modules/cjs/loader.js:812:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:849:19)
+[warn] ⚠  We were unable to load your functions code. (see above)
+[debug] [2019-12-16T18:06:14.435Z] ----------------------------------------------------------------------
+[debug] [2019-12-16T18:06:14.438Z] Command:       /usr/bin/node /usr/bin/firebase serve --only functions --port=9000
+[debug] [2019-12-16T18:06:14.438Z] CLI Version:   7.6.0
+[debug] [2019-12-16T18:06:14.438Z] Platform:      linux
+[debug] [2019-12-16T18:06:14.438Z] Node Version:  v12.13.0
+[debug] [2019-12-16T18:06:14.439Z] Time:          Mon Dec 16 2019 23:36:14 GMT+0530 (India Standard Time)
+[debug] [2019-12-16T18:06:14.439Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-12-16T18:06:14.444Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-16T18:06:14.444Z] > authorizing via signed-in user
+[debug] [2019-12-16T18:06:14.444Z] [iam] checking project socialexp-154bc for permissions ["firebase.projects.get"]
+[debug] [2019-12-16T18:06:14.445Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/socialexp-154bc:testIamPermissions  
+
+[debug] [2019-12-16T18:06:55.075Z] Error: getaddrinfo EAI_AGAIN cloudresourcemanager.googleapis.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+[error] 
+[error] Error: Server Error. getaddrinfo EAI_AGAIN cloudresourcemanager.googleapis.com
+[debug] [2019-12-16T18:07:02.542Z] ----------------------------------------------------------------------
+[debug] [2019-12-16T18:07:02.544Z] Command:       /usr/bin/node /usr/bin/firebase serve --only functions --port=9000
+[debug] [2019-12-16T18:07:02.544Z] CLI Version:   7.6.0
+[debug] [2019-12-16T18:07:02.544Z] Platform:      linux
+[debug] [2019-12-16T18:07:02.545Z] Node Version:  v12.13.0
+[debug] [2019-12-16T18:07:02.545Z] Time:          Mon Dec 16 2019 23:37:02 GMT+0530 (India Standard Time)
+[debug] [2019-12-16T18:07:02.545Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-12-16T18:07:02.552Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-16T18:07:02.552Z] > authorizing via signed-in user
+[debug] [2019-12-16T18:07:02.552Z] [iam] checking project socialexp-154bc for permissions ["firebase.projects.get"]
+[debug] [2019-12-16T18:07:02.553Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/socialexp-154bc:testIamPermissions  
+
+[debug] [2019-12-16T18:07:40.947Z] Error: getaddrinfo EAI_AGAIN cloudresourcemanager.googleapis.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+[error] 
+[error] Error: Server Error. getaddrinfo EAI_AGAIN cloudresourcemanager.googleapis.com
+[debug] [2019-12-16T18:08:03.301Z] ----------------------------------------------------------------------
+[debug] [2019-12-16T18:08:03.306Z] Command:       /usr/bin/node /usr/bin/firebase serve --only functions --port=9000
+[debug] [2019-12-16T18:08:03.306Z] CLI Version:   7.6.0
+[debug] [2019-12-16T18:08:03.306Z] Platform:      linux
+[debug] [2019-12-16T18:08:03.306Z] Node Version:  v12.13.0
+[debug] [2019-12-16T18:08:03.307Z] Time:          Mon Dec 16 2019 23:38:03 GMT+0530 (India Standard Time)
+[debug] [2019-12-16T18:08:03.307Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-12-16T18:08:03.315Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-16T18:08:03.315Z] > authorizing via signed-in user
+[debug] [2019-12-16T18:08:03.315Z] [iam] checking project socialexp-154bc for permissions ["firebase.projects.get"]
+[debug] [2019-12-16T18:08:03.317Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/socialexp-154bc:testIamPermissions  
+
+[debug] [2019-12-16T18:08:12.426Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-16T18:08:12.437Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/socialexp-154bc  
+ 
+[debug] [2019-12-16T18:08:19.828Z] <<< HTTP RESPONSE 200
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "12"
+[info] ✔  functions: Emulator started at http://localhost:9000
+[info] i  functions: Watching "/home/maverick/Documents/socialExp-functions/functions" for Cloud Functions...
+[debug] [2019-12-16T18:08:20.560Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/maverick/Documents/socialExp-functions/functions","node_version":"12.13.0"}
+[debug] [2019-12-16T18:08:20.560Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-12-16T18:08:20.562Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.0","resolution":"/home/maverick/Documents/socialExp-functions/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-12-16T18:08:20.563Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/home/maverick/Documents/socialExp-functions/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-12-16T18:08:20.563Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/home/maverick/Documents/socialExp-functions/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  Error: Cannot find module 'utility/admin.js'
+Require stack:
+- /home/maverick/Documents/socialExp-functions/functions/index.js
+- /usr/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:794:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:849:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/home/maverick/Documents/socialExp-functions/functions/index.js:3:21)
+    at Module._compile (internal/modules/cjs/loader.js:956:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)
+    at Module.load (internal/modules/cjs/loader.js:812:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:849:19)
+[warn] ⚠  We were unable to load your functions code. (see above)
+[debug] [2019-12-16T18:10:44.125Z] ----------------------------------------------------------------------
+[debug] [2019-12-16T18:10:44.128Z] Command:       /usr/bin/node /usr/bin/firebase serve --only functions --port=9000
+[debug] [2019-12-16T18:10:44.128Z] CLI Version:   7.6.0
+[debug] [2019-12-16T18:10:44.128Z] Platform:      linux
+[debug] [2019-12-16T18:10:44.128Z] Node Version:  v12.13.0
+[debug] [2019-12-16T18:10:44.128Z] Time:          Mon Dec 16 2019 23:40:44 GMT+0530 (India Standard Time)
+[debug] [2019-12-16T18:10:44.129Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-12-16T18:10:44.133Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-16T18:10:44.134Z] > authorizing via signed-in user
+[debug] [2019-12-16T18:10:44.134Z] [iam] checking project socialexp-154bc for permissions ["firebase.projects.get"]
+[debug] [2019-12-16T18:10:44.135Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/socialexp-154bc:testIamPermissions  
+
+[debug] [2019-12-16T18:10:46.690Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-16T18:10:46.694Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/socialexp-154bc  
+ 
+[debug] [2019-12-16T18:11:07.465Z] <<< HTTP RESPONSE 200
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "12"
+[info] ✔  functions: Emulator started at http://localhost:9000
+[info] i  functions: Watching "/home/maverick/Documents/socialExp-functions/functions" for Cloud Functions...
+[debug] [2019-12-16T18:11:08.324Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/maverick/Documents/socialExp-functions/functions","node_version":"12.13.0"}
+[debug] [2019-12-16T18:11:08.325Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-12-16T18:11:08.328Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.0","resolution":"/home/maverick/Documents/socialExp-functions/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-12-16T18:11:08.328Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/home/maverick/Documents/socialExp-functions/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-12-16T18:11:08.329Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/home/maverick/Documents/socialExp-functions/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  Error: Cannot find module 'functions/utility/admin.js'
+Require stack:
+- /home/maverick/Documents/socialExp-functions/functions/index.js
+- /usr/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:794:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:849:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/home/maverick/Documents/socialExp-functions/functions/index.js:3:21)
+    at Module._compile (internal/modules/cjs/loader.js:956:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)
+    at Module.load (internal/modules/cjs/loader.js:812:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:849:19)
+[warn] ⚠  We were unable to load your functions code. (see above)
+[debug] [2019-12-16T18:35:34.235Z] ----------------------------------------------------------------------
+[debug] [2019-12-16T18:35:34.237Z] Command:       /usr/bin/node /usr/bin/firebase serve --only functions --port=9000
+[debug] [2019-12-16T18:35:34.237Z] CLI Version:   7.6.0
+[debug] [2019-12-16T18:35:34.238Z] Platform:      linux
+[debug] [2019-12-16T18:35:34.238Z] Node Version:  v12.13.0
+[debug] [2019-12-16T18:35:34.238Z] Time:          Tue Dec 17 2019 00:05:34 GMT+0530 (India Standard Time)
+[debug] [2019-12-16T18:35:34.238Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-12-16T18:35:34.243Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-16T18:35:34.244Z] > authorizing via signed-in user
+[debug] [2019-12-16T18:35:34.244Z] [iam] checking project socialexp-154bc for permissions ["firebase.projects.get"]
+[debug] [2019-12-16T18:35:34.245Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/socialexp-154bc:testIamPermissions  
+
+[debug] [2019-12-16T18:35:41.612Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-16T18:35:41.622Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/socialexp-154bc  
+ 
+[debug] [2019-12-16T18:35:42.627Z] <<< HTTP RESPONSE 200
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "12"
+[info] ✔  functions: Emulator started at http://localhost:9000
+[info] i  functions: Watching "/home/maverick/Documents/socialExp-functions/functions" for Cloud Functions...
+[debug] [2019-12-16T18:35:43.479Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/maverick/Documents/socialExp-functions/functions","node_version":"12.13.0"}
+[debug] [2019-12-16T18:35:43.479Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-12-16T18:35:43.481Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.0","resolution":"/home/maverick/Documents/socialExp-functions/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-12-16T18:35:43.482Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/home/maverick/Documents/socialExp-functions/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-12-16T18:35:43.483Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/home/maverick/Documents/socialExp-functions/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  Error: Cannot find module 'utility/admin'
+Require stack:
+- /home/maverick/Documents/socialExp-functions/functions/index.js
+- /usr/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:794:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:849:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/home/maverick/Documents/socialExp-functions/functions/index.js:3:21)
+    at Module._compile (internal/modules/cjs/loader.js:956:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)
+    at Module.load (internal/modules/cjs/loader.js:812:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:849:19)
+[warn] ⚠  We were unable to load your functions code. (see above)
+[debug] [2019-12-16T18:35:53.876Z] File /home/maverick/Documents/socialExp-functions/functions/index.js changed, reloading triggers
+[debug] [2019-12-16T18:35:55.422Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/maverick/Documents/socialExp-functions/functions","node_version":"12.13.0"}
+[debug] [2019-12-16T18:35:55.422Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-12-16T18:35:55.424Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.0","resolution":"/home/maverick/Documents/socialExp-functions/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-12-16T18:35:55.425Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/home/maverick/Documents/socialExp-functions/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-12-16T18:35:55.425Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/home/maverick/Documents/socialExp-functions/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  Error: Cannot find module 'utility/admin.js'
+Require stack:
+- /home/maverick/Documents/socialExp-functions/functions/index.js
+- /usr/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:794:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:849:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/home/maverick/Documents/socialExp-functions/functions/index.js:3:21)
+    at Module._compile (internal/modules/cjs/loader.js:956:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)
+    at Module.load (internal/modules/cjs/loader.js:812:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:849:19)
+[warn] ⚠  We were unable to load your functions code. (see above)

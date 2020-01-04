@@ -1,0 +1,13 @@
+{
+  "emulators": {
+    "functions": {
+      "port": "9001"
+    },
+    "firestore": {
+      "port": "9002"
+    },
+    "database": {
+      "port": "9003"
+    }
+  }
+}

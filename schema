@@ -1,0 +1,44 @@
+{
+    users {
+        email : abc@abc.com ,
+        password :abc,
+        bio : abcdefgh,
+        gender : X,
+        age : 10,
+        first_name : abc ,
+        last_name :  def,
+        created_at : 2020-01-03T21:33:21.250Z
+        updated_at : 2020-01-03T21:33:21.250Z
+        userId : ardu3Nvoj0b1e7DLocOyrxSb1lI2
+        user_image_url : https://firebasestorage.googleapis.com/v0/b/oldmonk-cc6c9.appspot.com/o/blank_img.png?alt=media
+    }
+
+    Posts {
+
+        title : abc, 
+        description : abcdefgh,
+        likes : 6, 
+        image_url : http://, 
+        author : first_name + last_name           
+        created_at : 2020-01-03T21:33:21.250Z
+        updated_at : 2020-01-03T21:33:21.250Z
+        commentCount : 0,
+        likeCount : 0
+        userId : DIj8atJAEXfVVUKcW6SM7zE7XmX2
+        email : abc@abc.com
+    }
+
+    comments {
+        commented_by : abc, 
+        post_id : 68468Eouj8oQLakQDWh87EA4B76, 
+        comment : abcdefgh
+        created_at : 2020-01-03T21:33:21.250Z
+    }
+    likes {
+        post_id : Eouj8oQLakQDWh87EA4B
+        liked_by_uid :  DIj8atJAEXfVVUKcW6SM7zE7XmX2
+        created_at : 2020-01-03T21:33:21.250Z
+        liked_by_email : abc@abc.com
+    }
+    
+}
